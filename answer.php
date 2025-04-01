@@ -43,7 +43,7 @@
           $volume = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
 
           // output
-          echo "Your volume will be: " . $volume . "mm³";
+          echo "Your volume will be: " .(round($volume, 2)) . "mm³";
           ?>
         </div>
       </div>
