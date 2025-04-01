@@ -39,7 +39,7 @@
         <label>Length: </label>
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-of-pyramid" step="0.01" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="length-of-pyramid" step="0.01" />
           <!-- mdl-textfield__label -->
           <label class="mdl-textfield__label" for="length-of-pyramid">Length here.. (mm)</label>
           <!-- class "mdl-textfield__error" -->
@@ -50,7 +50,7 @@
         <label>Width: </label>
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-of-pyramid" step="0.01" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="width-of-pyramid" step="0.01" />
           <!-- mdl-textfield__label -->
           <label class="mdl-textfield__label" for="width-of-pyramid">Width here.. (mm)</label>
           <!-- class "mdl-textfield__error" -->
@@ -61,7 +61,7 @@
         <label>height: </label>
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-pyramid" step="0.01" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-pyramid" step="0.01" />
           <!-- mdl-textfield__label -->
           <label class="mdl-textfield__label" for="height-of-pyramid">Height here.. (mm)</label>
           <span class="mdl-textfield__error">Input is not a number.</span>
