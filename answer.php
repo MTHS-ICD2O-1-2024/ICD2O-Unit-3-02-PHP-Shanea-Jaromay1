@@ -32,10 +32,10 @@
         <img src="./images/pyramid.png" alt="pyramid image" width="300" />
       </div>
       <div class="page-content-php">
-        <div id="volume-info">
+        <div id="answer">
           <?php
           // input
-          $lengthOfPyramid = $_GET["length - of - pyramid"];
+          $lengthOfPyramid = $_GET["length-of-pyramid"];
           $widthOfPyramid = $_GET["width-of-pyramid"];
           $heightOfPyramid = $_GET["height-of-pyramid"];
 
